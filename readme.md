@@ -1,6 +1,4 @@
-<p style="text-align: center">
-    <img src="uni-logo.gif" alt="Yildiz Technical University" />
-</p>
+<img align="center" src="uni-logo.gif" alt="Yildiz Technical University" />
 
 <h1 style="text-align: center">
     YILDIZ TECHNICAL UNIVERSITY<br />
