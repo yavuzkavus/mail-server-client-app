@@ -1,32 +1,34 @@
-<img align="center" src="uni-logo.gif" alt="Yildiz Technical University" />
+<p align="center">
+    <img align="center" src="uni-logo.gif" alt="Yildiz Technical University"/>
+</p>
 
-<h1 style="text-align: center">
+<h1 align="center">
     YILDIZ TECHNICAL UNIVERSITY<br />
     FACULTY OF  ELECTRICAL AND ELECTRONICS ENGINEERING<br />
     DEPARTMENT OF COMPUTER ENGINEERING
 </h1>
 
 
-<h1 style="text-align: center; ">
+<h1 align="center">
     PROGRAMMING LANGUAGES<br />
     2. TERM PROJECT
 </h1>
 
 
-<h1 style="text-align: center">MAIL SERVER&CLIENT APPLICATION</h1>
+<h1 align="center">MAIL SERVER&CLIENT APPLICATION</h1>
 
 
-<p style="text-align:center">Project Supervisor: Doc. Dr. Elif KARSLIGİL</p>
+<p align="center">Project Supervisor: Doc. Dr. Elif KARSLIGİL</p>
 
 
-<p style="text-align:center">
+<p align="center">
     Project Group<br />
     01011029, Ahmet SAÇAKLI<br />
     01011033, Yavuz KAVUŞ<br />
 </p>
 
 
-<p style="text-align:center">
+<p align="center">
     İstanbul, 2004
 </p>
 
@@ -88,11 +90,11 @@ To delete a user, firstly all the files under the user folder are deleted and la
 
 
 ### Data Flow Diagrams(DFD)
-<p style="text-align: center">
+<p align="center">
     <img src="dfd-1.svg" alt="Data Flow Diagrams" /><br />
     User Operations, Level 1 DFD Diagrams
 </p>
-<p style="text-align: center">
+<p align="center">
     <img src="dfd-2.svg" alt="Data Flow Diagrams" /><br />
     Logged User Operations, Level 1 DFD Diagrams
 </p>
