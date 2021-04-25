@@ -77,8 +77,8 @@ typedef struct {
     char status;   //read=1 or unread=0 ?
     char mail[1024]; // mail content
 } MAIL;
-This struct used to compose/forward a mail.
 ```
+This struct used to compose/forward a mail.
 
 
 
