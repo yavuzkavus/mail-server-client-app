@@ -36,20 +36,20 @@
 
 These definitions are  defined in “proje.h” file.
 ```c
-#define NEWUSER 0  //new user will be signed up
-#define LOGIN 1   // member will log in
-#define LOGOUT 2  // member will log out
+#define NEWUSER 0     //new user will be signed up
+#define LOGIN 1       // member will log in
+#define LOGOUT 2      // member will log out
 #define DELETEUSER 3  // delete member
 #define DELETEMAIL 4  // delete mail
-#define FORWARD 5   // forward message
-#define CANCEL 6    // cancel current action
-#define EXISTUSER 7  //  another member already has the same name
-#define ACCEPT 8     // action completed
-#define INVALID 9    // invalid name or password
-#define READ 10     // read message
-#define NEWMAIL 11  // compose new message
+#define FORWARD 5     // forward message
+#define CANCEL 6      // cancel current action
+#define EXISTUSER 7   //  another member already has the same name
+#define ACCEPT 8      // action completed
+#define INVALID 9     // invalid name or password
+#define READ 10       // read message
+#define NEWMAIL 11    // compose new message
 #define REFRESH 12    // refresh all messages
-#define ERROR 13     // error occurred
+#define ERROR 13      // error occurred
 ```
 These macros are used during data flow between the server and the client. Usually, when one of them gets information from the other. What kind of operation will be made between the server and the client is specified in the "what" variable. The macros described above are assigned to the what variable, so the programmer will not have to know what these numbers mean. 
 ```c
@@ -58,7 +58,7 @@ char username[15];  //username will be used when loging in
 char password[5];   //password for save login
 } CRIPTO;
 ```
-This struct holds the username and password information.
+This struct holds the username and password information.<br /><br /><br />
 
 ```c
 typedef struct {
@@ -68,7 +68,7 @@ typedef struct {
     char age;       // user’s age
 } INFO;
 ```
-This struct used to transfer data during the Sign up process
+This struct used to transfer data during the Sign up process<br /><br /><br />
 
 ```c
 typedef struct {
@@ -79,7 +79,7 @@ typedef struct {
     char mail[1024]; // mail content
 } MAIL;
 ```
-This struct used to compose/forward a mail.
+This struct used to compose/forward a mail.<br /><br /><br />
 
 
 
