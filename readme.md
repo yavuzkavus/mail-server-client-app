@@ -58,8 +58,8 @@ char username[15];  //username will be used when loging in
 char password[5];   //password for save login
 } CRIPTO;
 ```
-
 This struct holds the username and password information.
+
 ```c
 typedef struct {
     char name[30];  //user’s first and last name
@@ -69,6 +69,7 @@ typedef struct {
 } INFO;
 ```
 This struct used to transfer data during the Sign up process
+
 ```c
 typedef struct {
     char from[15];    // username of mail’s sender
